@@ -2,16 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Magical Munnar - Travel Blog</title>
-  <link rel="stylesheet" href="style.css">
+  <title>Travel Blog - Magical Munnar & More</title>
+  <link rel="stylesheet" href="style.css"> 
+
   <style>
-    /* Internal CSS */
     body {
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
       background-color: #f7f9fc;
     }
+
     header {
       background-color: #4CAF50;
       color: white;
@@ -19,54 +20,103 @@
       text-align: center;
       box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
+
     h1 {
       margin: 0;
     }
-    .blog-container {
+
+    .blog-section {
       display: flex;
       gap: 20px;
-      padding: 20px;
-    }
-    .text-box, .image-box {
-      padding: 20px;
+      padding: 30px;
+      margin: 30px;
+      background-color: #fff;
       border: 1px solid #ddd;
       border-radius: 10px;
-      background-color: white;
-      flex: 1;
+      box-shadow: 0 0 10px rgba(0,0,0,0.05);
     }
+
+    .text-box, .image-box {
+      flex: 1;
+      padding: 20px;
+    }
+
     .image-box img {
-      max-width: 100%;
-      border-radius: 8px;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #eee;
+      margin-top: 40px;
     }
   </style>
 </head>
+
 <body>
 
 <header>
-  <h1>🌄 Magical Munnar</h1>
-  <p style="font-style: italic;">My unforgettable trip to Kerala’s hill paradise</p> <!-- Inline CSS -->
+  <h1>Travel Blog</h1>
+  <p style="font-style: italic;">Exploring beautiful places around the world</p>
 </header>
 
-<section class="blog-container">
+<section class="blog-section">
   <div class="text-box">
-    <h2>Why I Love Munnar</h2>
-    <p>Munnar, located in the Western Ghats of Kerala, is a beautiful hill station famous for its tea gardens, cool weather, and peaceful vibes.</p>
-    
+    <h2> Magical Munnar</h2>
+    <p>Munnar, in Kerala’s Western Ghats, is known for its rolling tea gardens, misty mountains, and tranquil scenery.</p>
     <h3>Top Highlights</h3>
     <ul>
-      <li>Tea Plantations as far as the eye can see</li>
-      <li>Eravikulam National Park – home to the Nilgiri Tahr</li>
-      <li>Soothing waterfalls like Attukal and Lakkam</li>
-      <li>Sunrise views from Top Station</li>
+      <li>Tea Plantations across lush hills</li>
+      <li>Eravikulam National Park and rare Nilgiri Tahr</li>
+      <li>Chilly waterfalls like Attukal & Lakkam</li>
+      <li>Sunrise from Top Station viewpoint</li>
     </ul>
   </div>
-
   <div class="image-box">
-    <img src="Munnar Hills.jpg">
+    <img src="Munnar Hills.jpg" alt="Munnar Hills">
   </div>
 </section>
 
-<footer style="text-align: center; padding: 10px; background-color: #eee; margin-top: 20px;">
+<section class="blog-section">
+  <div class="image-box">
+    <img src="Goa Beach.jpg" alt="Goa Beach">
+  </div>
+  <div class="text-box">
+    <h2> Glorious Goa</h2>
+    <p>Goa offers a mix of tropical beaches, Portuguese history, vibrant parties, and seafood delicacies.</p>
+    <h3>My Favorites</h3>
+    <ul>
+      <li>Watching sunsets at Anjuna Beach</li>
+      <li>Shopping at flea markets</li>
+      <li>Visiting Aguada Fort and churches</li>
+      <li>Jet skiing and parasailing!</li>
+    </ul>
+  </div>
+</section>
+
+<section class="blog-section">
+  <div class="text-box">
+    <h2> Mesmerizing Manali</h2>
+    <p>Manali, nestled in Himachal Pradesh, is a snowy paradise and adventure hub perfect for mountain lovers.</p>
+    <h3>What I Loved</h3>
+    <ul>
+      <li>Skiing in Solang Valley</li>
+      <li>Cozy cafes with mountain views</li>
+      <li>Paragliding over the Beas River</li>
+      <li>Walking through Old Manali village</li>
+    </ul>
+  </div>
+  <div class="image-box">
+    <img src="Manali Snow.jpg" alt="Manali Snow">
+  </div>
+</section>
+
+<footer>
   © 2025 Travel With Me Blog
 </footer>
 
